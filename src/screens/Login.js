@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, Text, TouchableOpacity} from 'react-native';
+import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import auth from '@react-native-firebase/auth';
 
@@ -25,7 +25,8 @@ export default function Login() {
       <TouchableOpacity
         style={styles.button}
         // eslint-disable-next-line no-alert
-        onPress={login}>
+        onPress={login}
+      >
         <Text style={styles.buttonText}>Enter Anonymously</Text>
         <Icon name="ios-lock" size={30} color="#cfdce0" />
       </TouchableOpacity>

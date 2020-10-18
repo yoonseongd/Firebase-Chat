@@ -1,4 +1,5 @@
-import React, {useState, useEffect, createContext} from 'react';
+/* eslint-disable prettier/prettier */
+import React, { useState, useEffect, createContext } from 'react';
 import auth from '@react-native-firebase/auth';
 import SignInStack from './SignInStack';
 import SignOutStack from './SignOutStack';
